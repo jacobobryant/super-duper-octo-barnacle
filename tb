@@ -1,0 +1,2 @@
+#!/bin/bash
+clj -Sdeps '{:deps {trident/build {:mvn/version "0.1.2"}}}' -m trident.build "$@"

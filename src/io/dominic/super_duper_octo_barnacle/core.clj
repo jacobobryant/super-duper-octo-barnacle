@@ -2,6 +2,11 @@
   (:require
     [github-percentile.core :as github-percentile]))
 
+(defn fire
+  "Fire ze missiles"
+  []
+  nil)
+
 (defn -main
   [& [username]]
   (assert username)
