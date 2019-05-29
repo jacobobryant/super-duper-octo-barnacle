@@ -4,7 +4,7 @@ An example lib for [trident.build](https://github.com/jacobobryant/trident). Sto
 ## Setup
 
 Update the value of `:group-id` in `lib.edn`. If you'd like to test production
-cljdoc, clone this repo and also update `:github-repo` in `lib.edn`.
+cljdoc, fork this repo and also update `:github-repo` in `lib.edn`.
 
 If you don't have a local instance of cljdoc already, run `./setup-cljdoc.sh`.
 Otherwise, update the value of `:cljdoc-dir` in `lib.edn`.
