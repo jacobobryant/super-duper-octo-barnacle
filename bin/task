@@ -1,0 +1,4 @@
+#!/bin/bash
+GRENCH_PORT=7888 grench main trident.cli.util/-main "$PWD" trident.build/-main "$@"
+# Use this if grench isn't available:
+# bin/trepl.py -p 7888 main trident.cli.util/-main "$PWD" trident.build/-main "$@"

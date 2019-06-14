@@ -1,5 +1,0 @@
-{:version "1.0-SNAPSHOT",
- :group-id "jobryant",
- :artifact-id "super-duper-octo-barnacle",
- :github-repo "jacobobryant/super-duper-octo-barnacle",
- :cljdoc-dir "./cljdoc/"}

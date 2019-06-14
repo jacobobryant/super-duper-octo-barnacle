@@ -1,3 +1,11 @@
 {:paths ["src"]
+ :aliases {:dev {:extra-paths ["src-dev"]
+                 :extra-deps {trident/build {:mvn/version "0.1.7"}}}}
  :deps {org.clojure/clojure {:mvn/version "1.9.0"}
-        github-percentile {:mvn/version "0.1.0"}}}
+        github-percentile {:mvn/version "0.1.0"}}
+ :trident/lib
+ {:version "1.0-SNAPSHOT",
+  :group-id "jobryant",
+  :artifact-id "super-duper-octo-barnacle",
+  :github-repo "jacobobryant/super-duper-octo-barnacle",
+  :cljdoc-dir "./cljdoc/"}}

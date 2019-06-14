@@ -2,3 +2,6 @@
 /*.jar
 /extra
 secrets
+pom.xml
+target
+cljdoc
